@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "845491692716",
+    "firebase_url": "https://doc-scanner-e567c.firebaseio.com",
+    "project_id": "doc-scanner-e567c",
+    "storage_bucket": "doc-scanner-e567c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845491692716:android:c879fd9f6bd04479",
+        "android_client_info": {
+          "package_name": "rishabh.com.docscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845491692716-gp87utm25706h7ddbukbm1qu3ahpckkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaiYd5aTtloLF6u1Gf5DN7AYSa46JVwmE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

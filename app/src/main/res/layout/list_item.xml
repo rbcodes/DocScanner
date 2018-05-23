@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:weightSum="6"
+    android:id="@+id/list_item"
+    android:padding="@dimen/_5sdp"
+    android:layout_gravity="center_vertical"
+    android:layout_height="match_parent"
+    android:background="@color/design_dark_background">
+
+    <TextView
+        android:id="@+id/foldertext"
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="wrap_content"
+        android:background="@color/design_dark_background"
+        android:gravity="center_vertical"
+        android:minHeight="?android:attr/listPreferredItemHeight"
+        android:padding="@dimen/_5sdp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/filescount"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        android:background="@color/design_dark_background"
+        android:text="3"/>
+
+</LinearLayout>
